@@ -1,0 +1,3 @@
+.fadable {
+    transition: opacity .15s ease-in-out;
+}

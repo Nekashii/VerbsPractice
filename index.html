@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-16" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Reto 1 | Star Wars API</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body class="bg-light">
+        <div class="container my-4">
+            <h1 class="text-center mb-0">Irregular verbs practice</h1>
+            <h4 class="text-center">By Nekashii</h4>
+
+            <div class="text-center mt-5">
+                <form id="formStart">
+                    <h5 class="d-inline">Show up to verb </h5>
+                    <input class="form-control-sm" type="number" id="txtVerbsAmount" min="1" max="129" value="1"><br>
+                    <button class="btn btn-primary mx-auto">START</button>
+                </form>
+            </div>
+            <div id="verbsCarousel" class="carousel carousel-dark slide fadable mt-3" data-bs-ride="false" style="opacity: 0;">
+                <div class="carousel-inner" id="cardContainer"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#verbsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#verbsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
